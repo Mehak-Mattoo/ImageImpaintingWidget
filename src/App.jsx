@@ -35,6 +35,13 @@ const App = () => {
           />
         </div>
       )}
+      <p>
+        Made by{" "}
+        <a href="https://my-3d-portfolio-teal.vercel.app/" target="_blank">
+          {" "}
+          Mehak Mattoo
+        </a>
+      </p>
     </div>
   );
 };
