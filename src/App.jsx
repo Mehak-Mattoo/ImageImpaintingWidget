@@ -25,16 +25,7 @@ const App = () => {
           onSaveMask={handleSaveMask} // Pass the handleSaveMask function to the canvas editor
         />
       )}
-      {maskImage && (
-        <div>
-          <h3>Generated Mask</h3>
-          <img
-            src={maskImage}
-            alt="Generated Mask"
-            style={{ width: "800px", height: "600px" }}
-          />
-        </div>
-      )}
+      
       <p>
         Made by{" "}
         <a href="https://my-3d-portfolio-teal.vercel.app/" target="_blank">
